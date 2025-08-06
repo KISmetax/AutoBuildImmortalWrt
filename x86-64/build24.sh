@@ -75,7 +75,6 @@ PACKAGES="$PACKAGES luci-app-mosdns"
 PACKAGES="$PACKAGES luci-app-nikki"
 PACKAGES="$PACKAGES luci-app-ssr-plus"
 PACKAGES="$PACKAGES luci-app-store"
-PACKAGES="$PACKAGES luci-app-advancedplus"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
